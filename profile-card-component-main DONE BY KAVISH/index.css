@@ -1,0 +1,167 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+.attribution {
+    background-color: white;
+    font-size: 11px;
+    text-align: center;
+    /* display: none */
+    z-index: 99;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+.header img {
+    width: 330px;
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: var(--Dark-cyan);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card {
+    overflow: hidden;
+    height: 371px;
+    width: 330px;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    box-shadow: 50px gray;
+    border-radius: 20px;
+}
+
+.vector {
+    display: flex;
+    justify-content: center;
+}
+
+.vector img {
+    border-radius: 50%;
+    top: 20%;
+    position: absolute;
+    border: 4px white solid;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.main-content h2 {
+    padding-top: 6px;
+    color: var(--Very-dark-desaturated-blue);
+    font-size: 19px;
+}
+
+.main-content p {
+    /* color: var(--Dark-grayish-blue); */
+    color: hsl(0, 0%, 59%);
+    /* color: black;
+    opacity: 0.5; */
+    margin-left: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.london {
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    padding-right: 2px;
+    font-size: 14px;
+    font-weight: 900;
+    /* color: var(--Dark-grayish-blue); */
+    color: hsl(0, 0%, 59%);
+    /* color: black;
+    opacity: 0.7; */
+    margin-bottom: 50px;
+}
+
+.last-div {
+    display: flex;
+}
+
+.last-cards {
+    padding-right: 50px;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.gg {
+    padding-left: 40px;
+}
+
+.last-div p {
+    padding-top: 4px;
+    color: black;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.last-div h3 {
+    padding-top: 17px;
+}
+
+.iop {
+    padding-left: 8px;
+}
+
+
+/* CIRCLES */
+
+.circles .c1,
+.circles .c2 {
+    position: absolute;
+    width: 900px;
+    height: auto;
+    z-index: 0;
+}
+
+.circles .c1 {
+    top: -450px;
+    left: -175px;
+}
+
+.circles .c2 {
+    bottom: -450px;
+    right: -175px;
+    /* overflow: hidden; */
+}
+
+
+/* body img:nth-child(1) {
+    position: absolute;
+    left: -273px;
+    top: -481px;
+    transform: rotate(-15deg);
+    height: 1000px;
+} */
+
+
+/* body img:nth-child(2) {
+    position: absolute;
+    right: -100px;
+    height: 900px;
+    transform: rotate(7deg)
+} */
